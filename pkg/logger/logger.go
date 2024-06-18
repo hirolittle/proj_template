@@ -6,7 +6,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 	"log"
-	"proj_template/config"
+	"proj_template/pkg/config"
 	"strings"
 )
 

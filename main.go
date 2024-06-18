@@ -1,8 +1,8 @@
 package main
 
 import (
-	"proj_template/config"
-	"proj_template/logger"
+	"proj_template/pkg/config"
+	"proj_template/pkg/logger"
 )
 
 func init() {
