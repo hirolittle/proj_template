@@ -1,0 +1,8 @@
+logConfig:
+  output: "log"
+  fileName: "app.log"
+  level: "DEBUG"
+  maxSize: 10 # Log file max size in MB before rotation
+  maxBackups: 5 # Max number of old log files to retain
+  maxAges: 30 # Max number of days to retain old log files
+  compress: false # Whether to compress/zip old log files
